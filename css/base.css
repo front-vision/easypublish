@@ -1,11 +1,54 @@
-a{text-decoration:none;color:#222222;}
-a:hover{color:#222222;}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
-address{font-style:normal;}
-@font-face{font-family:'NGothic'; src:url('../font/NanumGothic.woff') format('woff');}
-@font-face{font-family:'NGothicB'; src:url('../font/NanumGothicBold.woff') format('woff');}
-@font-face{font-family:'NGothicEB'; src:url('../font/NanumGothicExtraBold.woff') format('woff');}
-body{font:14px "NGothicB",Gulim;}
-.hidden {width: 0; height: 0; position: absolute; text-indent: -9999px; line-height: 0;}
-.cfixed:after {display: block; content: ""; clear: both;}
-.group {width: 1200px;}
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address {
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NGothic';
+    src: url('../font/NanumGothic.woff') format('woff');
+}
+
+/* @font-face{font-family:'NGothicB'; src:url('../font/NanumGothicBold.woff') format('woff');} */
+@font-face {
+    font-family: 'NGothicEB';
+    src: url('../font/NanumGothicExtraBold.woff') format('woff');
+}
+
+body {
+    font: 14px "NGothic", Gulim;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    position: absolute;
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.cfixed:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.group {
+    width: 1200px;
+}
