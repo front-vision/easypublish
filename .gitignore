@@ -6,10 +6,6 @@ bourbon/
 #sftpFile, zip∆ƒ¿œ
 *.zip
 
-# ImeageFile
-*.jpg
-*.png
-*.gif
 
 # Windows image file caches
 Thumbs.db

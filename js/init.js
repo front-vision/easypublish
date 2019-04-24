@@ -1,4 +1,5 @@
 $(function() {
-    $("#header")
-    $(".header")
+    $('.bs').animate(function() {
+        top: "50px"
+    });
 });
