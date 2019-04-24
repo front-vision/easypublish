@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header class="header">
+            <h1>이지스파블리언</h1>
+            <div class="gnb">
+                <nav class="menu">
+                    <h1>메뉴</h1>
+                    <ul class="dep-1">
+                        <li>
+                            <a href="">메뉴-1</a>
+                            <ul class="dep-2">
+                                <li><a href="">메뉴1-1</a></li>
+                                <li><a href="">메뉴1-2</a></li>
+                                <li><a href="">메뉴1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">메뉴-2</a></li>
+                        <li><a href="">메뉴-3</a></li>
+                        <li><a href="">메뉴-4</a></li>
+                        <li><a href="">메뉴-5</a></li>
+                    </ul>
+                    <!-- <ul class="dep-2"></ul> -->
+                </nav>
+            </div>
+        </header>
+
+        <style>
+            .gnb .menu {
+                display: inline-block;
+                background: red;
+            }
+            a {
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .dep-1>li {
+                position: relative;
+                display: inline-block;
+            }
+            .dep-1>li > a {
+                position: relative;
+                z-index: 1;
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                background: orange;
+            }
+            
+            .dep-1>li:hover .dep-2 {
+                /* display: block; */
+                top: 40px;
+                visibility: visible;
+                opacity: 1;
+            }
+
+            .dep-2 {
+                position: absolute;
+                min-width: 200px;
+                height: 200px;
+                background: green;
+                /* display: none; */
+                visibility: hidden;
+                opacity: 0;
+                left: 0;
+                top: 0px;
+                transition: all 0.8s;
+            }
+        </style>
+
+        <!-- <div class="contents">
+            <section class="sec main-visual">
+                <h1>비주얼</h1>
+                <div>
+                    <h2>제목h2</h2>
+                </div>
+            </section>
+            <section class="sec article-slider">
+                <h1>기사 슬라이더</h1>
+                <article>
+                    <h1>기사제목</h1>
+                </article>
+            </section>
+            <section class="sec sns">
+                <h1>SNS</h1>
+            </section>
+            <section class="sec f-menu">
+                <h1>푸터메뉴</h1>
+                <button class="btn-default btn-gray"></button>
+                <button class="btn-default btn-green"></button>
+                <div class="btn-row">
+                    <button class="btn-default"></button>
+                    <button class="btn-default"></button>
+                    <button class="btn-default"></button>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer"></footer> -->
+
+    </div>
+
+    <style>
+        .contents {
+            position: relative;
+        }
+
+        .contents .sec {}
+
+        .contents .sec h1 {
+            font-size: 30px;
+        }
+
+        .contents .sec.f-menu>.btn-default {}
+    </style>
+</body>
+
+</html>

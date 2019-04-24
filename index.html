@@ -12,22 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
-    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-        $(function() {
-            $(".center").slick({
-                dots: false,
-                infinite: true,
-                centerMode: true,
-                slidesToShow: 5,
-                slidesToScroll: 3
-            });
-        });
-    </script>
-    <style>
-    </style>
+    
 </head>
 
 <body>
@@ -36,7 +21,7 @@
             <a href="#"><img class="t_banner_img" src="images/t_banner.png" alt="인스타그램 공유 이벤트"></a>
             <a href="#"><img class="t_banner_close" src="images/t_banner_close.png" alt="배너 닫기 버튼"></a>
         </div>
-        <header id="header">
+        <header id="header" class="header">
             <h1><a href="#"><img src="images/logo.png" alt="이지스파블리온"></a></h1>
             <nav id="gnb">
                 <h1 class="hidden">메인메뉴</h1>
@@ -82,9 +67,12 @@
         </header>
         <section id="main_visual">
             <h1 class="hidden">메인 비주얼</h1>
-            <img src="images/visual_01.jpg" alt="">
+            <div class="visual-slider">
+                <img src="images/visual_01.jpg" alt="">
+                <img src="images/visual_01.jpg" alt="">
+            </div>
         </section>
-        <section class="center slider">
+        <section class="center book-slider">
             <div class="list_01 b_list">
                 <img src="images/b_list_01.png">
                 <div class="b_text">
@@ -221,6 +209,12 @@
         </footer>
 
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main/init.js"></script>
 </body>
 
 </html>
