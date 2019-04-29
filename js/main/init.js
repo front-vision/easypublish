@@ -7,5 +7,7 @@ $(function() {
         slidesToScroll: 3
     });
     $(".visual-slider").slick({
+        fade: true,
+        speed: 2000
     });
 });
