@@ -25,7 +25,6 @@ address {
     src: url('../font/NanumGothic.woff') format('woff');
 }
 
-/* @font-face{font-family:'NGothicB'; src:url('../font/NanumGothicBold.woff') format('woff');} */
 @font-face {
     font-family: 'NGothicEB';
     src: url('../font/NanumGothicExtraBold.woff') format('woff');
