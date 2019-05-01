@@ -26,10 +26,6 @@
         top: 20px;
         right: 20px;
     }
-
-    .t_banner_close:hover .top_banner {
-        
-    }
     
     
 .header {
@@ -65,10 +61,12 @@
     }
 
     .menu>li:hover .d2 {
-        top: 60px;
+        top: 40px;
+        left: -33px;
         visibility: visible;
         opacity: 1;
         z-index: 999;
+        display: block;
     }
 
     .menu a {
@@ -84,10 +82,17 @@
     .d2 {
         width: 200px;
         position: absolute;
-        background: #000;   
+        background: #000;
+        display: none;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     .d2 li {
         line-height: 50px;
+    }
+
+    .last_d2 {
+        padding-bottom: 15px;
     }
     
     #sform {
