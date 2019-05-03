@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR");
+
+.sub {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.sub img {
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.sub p {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 40px;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.about_t {
+    margin: 40px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.about_01 {
+    margin: 0 auto;
+    height: 270px;
+}
+.about_01 img {
+    float: left;
+    margin-left: 40px;
+}
+.about_01 div {
+    width: 500px;
+    float: right;
+    margin-right: 90px;
+}
+.about_01 p {
+    font-size: 25px;
+    line-height: 70px;
+}
+.about_01 span {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.about_02 {
+    margin: 0 auto;
+    height: 300px;
+}
+.about_02 img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.about_02 div {
+    width: 500px;
+    float: left;
+    margin-left: 70px;
+}
+.about_02 p {
+    font-size: 25px;
+    line-height: 70px;
+}
+.about_02 span {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.about_03 {
+    margin: 0 auto;
+    height: 180px;
+}
+.about_03 div {
+    float: left;
+    margin-left: 70px;
+}
+.about_03 p {
+    font-size: 25px;
+    line-height: 70px;
+}
+.about_03 span {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.about_04 {
+    margin: 0 auto;
+    height: 120px;
+}
+.about_04 div {
+    float: left;
+    margin-left: 70px;
+}
+.about_04 p {
+    font-size: 25px;
+    line-height: 70px;
+}
+.about_04 span {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about_05 {
+    margin: 0 auto;
+    height: 425px;
+}
+.about_05 > p {
+    margin-left: 70px;
+    font-size: 25px;
+    line-height: 70px;
+}
+.about_05 ul {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.about_05 ul li {
+    font-size: 16px;
+    width: 370px;
+    height: 70px;
+    border: 1px solid #222222;
+    line-height: 70px;
+    padding-left: 30px;
+    margin: 0 0 25px 0;
+    font-weight: 600;
+}
+.about_05 ul li span {
+    float: right;
+    padding-right: 30px;
+}
+
