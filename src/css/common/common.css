@@ -69,11 +69,11 @@ body {
 
 /* 모바일 영역 */
 @media (max-width: 767px) {
-    .m-hidden {display: none;}
+    .xs-hidden {display: none;}
 }
 /* PC 영역 */
 @media (min-width: 768px) {
-    .w-hidden {display: none;}
+    .lg-hidden {display: none;}
     
 }
 /* 기준 너비 구분 */
