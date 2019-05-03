@@ -67,6 +67,21 @@ body {
     margin-bottom: 30px;
 }
 
+/* 모바일 영역 */
+@media (max-width: 767px) {
+    .m-hidden {display: none;}
+}
+/* PC 영역 */
+@media (min-width: 768px) {
+    .w-hidden {display: none;}
+    
+}
+/* 기준 너비 구분 */
+@media (max-width: 1199px) {
+    
+}
+
+
 /* 해더 영역 */
 .top_banner {
     width: 100%;

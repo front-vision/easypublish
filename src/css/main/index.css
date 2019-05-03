@@ -1,10 +1,11 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR");
 
+.contents {}
 
 /* @media (min-width:1024px) { */
 
-/* 메인 비주얼 */
+/* 메인 비주얼 영역 */
 .main_visual {
     height: 600px;
     font-size: 0;
@@ -19,7 +20,7 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
-/* 북 슬라이더 */
+/* 북 슬라이더 영역 */
 .book-slider {
     height: 550px;
     width: 100%;
@@ -80,8 +81,6 @@
 }
 
 
-
-#contents {}
 
 .con {
     width: 1200px;
