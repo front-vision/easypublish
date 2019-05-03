@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/* 베이스 */
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover {
+    color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address {
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NGothic';
+    src: url('../font/NanumGothic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NGothicEB';
+    src: url('../font/NanumGothicExtraBold.woff') format('woff');
+}
+
+body {
+    font: 14px "NGothic", Gulim;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    position: absolute;
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.cfixed:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.group {
+    width: 1200px;
+}
+
+.t_line {
+    margin: 40px auto;
+    width: 1200px;
+    border-bottom: 1px solid #222222;
+}
+
+/* slick 재수정 */
+.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+/* 해더 영역 */
+.top_banner {
+    width: 100%;
+    height: 120px;
+    background: #0ba8f5;
+    border-bottom: 2px solid #505050;
+    position: relative;
+}
+
+    .t_banner_img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .t_banner_close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    
+    
+.header {
+    height: 70px;
+    background: #000000;   
+    position: relative;
+    
+}
+.header > h1:nth-child(1) {
+    width: 155px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0, -50%);
+}
+
+.menu {
+    position: absolute;
+    top: 27px;
+    right: 260px;
+}
+
+.menu>li {
+    position: relative;
+}
+
+.menu>li > a {
+    position: relative;
+    z-index: 999;
+    display: block;
+    height: 70px;
+}
+
+.menu>li:hover .d2 {
+    top: 40px;
+    left: -33px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+    display: block;
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.d1 {
+    padding: 0 30px 0 30px;
+    text-align: center;
+    float: left;
+}
+
+.d2 {
+    width: 200px;
+    position: absolute;
+    background: #000;
+    display: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.d2 li {
+    line-height: 50px;
+}
+
+.last_d2 {
+    padding-bottom: 15px;
+}
+
+#sform {
+    width: 230px;
+    border-radius: 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+
+#sbox {
+    margin-left: 10px;
+    float: left;
+    height: 40px;
+    border: #ffffff;
+}
+
+.sbtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    float: right;
+
+}
+
+.util {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.util li {
+    padding: 0 20px 0 20px;
+    float: left;
+}
+/* 푸터 영역 */
+

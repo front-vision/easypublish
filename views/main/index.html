@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
+<header lang="ko">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>이지스퍼블리싱㈜ 공식 사이트</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+    <!-- 폰트 css -->
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    
+    <!-- 공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../src/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../src/css/index.css">
+
+    <!-- 페이지 용 css -->
+    <link rel="stylesheet" type="text/css" href="../../src/css/slick.css">
 
 </header>
-<body>
+<body class="page-main">
     <div id="wrap">
-        <div class="top_banner">
+        <div class="top_area">
             <a href="#"><img class="t_banner_img" src="images/t_banner.png" alt="인스타그램 공유 이벤트"></a>
             <a href="#"><img class="t_banner_close" src="images/t_banner_close.png" alt="배너 닫기 버튼"></a>
         </div>
@@ -57,6 +61,21 @@
                         <input type="image" class="sbtn" src="images/search.png" alt="검색">
                     </fieldset>
                 </form>
+            </nav>
+
+            <!-- <div class="pop-wrapper">
+                <header class="pop-header"></header>
+                <div class="pop-contents"></div>
+                <footer class="pop-footer"></footer>
+            </div> -->
+            
+            <button class="m-tab">M</button>
+            <nav class="m-gnb">
+                <ul class="menu">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </nav>
         </header>
         <section id="main_visual">
@@ -206,9 +225,10 @@
 
 
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
     <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/common.js"></script>
     <script src="js/main/init.js"></script>
 </body>
 
-</html>
+</header>
