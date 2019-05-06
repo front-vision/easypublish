@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* header PC */
+.header {
+    height: 70px;
+    background: #000000;   
+    position: relative;
+}
+.header > h1:nth-child(1) {
+    width: 155px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0, -50%);
+}
+.header .gnb .menu {
+    position: absolute;
+    top: 27px;
+    right: 260px;
+}
+.header .gnb .menu > li {
+    position: relative;
+}
+.header .gnb .menu > li > a {
+    position: relative;
+    z-index: 999;
+    display: block;
+    height: 70px;
+}
+.header .gnb .menu > li:hover .d2 {
+    top: 40px;
+    left: -33px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+    display: block;
+}
+.header .gnb .menu a {
+    color: #ffffff;
+}
+.header .gnb .menu .d1 {
+    padding: 0 30px 0 30px;
+    text-align: center;
+    float: left;
+}
+.header .gnb .menu .d1 .d2 {
+    width: 200px;
+    position: absolute;
+    background: #000;
+    display: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.header .gnb .menu .d1 .d2 li {
+    line-height: 50px;
+}
+.header .gnb .menu .d1 .d2 .last_d2 {
+    padding-bottom: 15px;
+}
+.header .gnb #sform {
+    width: 230px;
+    border-radius: 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+.header .gnb #sform #sbox {
+    margin-left: 10px;
+    float: left;
+    height: 40px;
+    border: #ffffff;
+}
+.header .gnb #sform .sbtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    float: right;   
+}
+
+/* footer PC */
+.footer {
+    height: 293px;
+    background: #373737;
+}
+.sns {
+    padding-top: 60px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.sns .sns_box {
+    width: 990px;
+    margin: 0 auto;
+}
+.sns .sns_box > div {
+    margin: 0 5px -1px 5px;
+    float: left;
+    width: 318px;
+    height: 98px;
+    border: 1px solid #bfbfbf;
+}
+.sns .sns_box .sns_n {
+    position: relative;
+}
+.sns .sns_box .sns_n img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.sns .sns_box .sns_n .sns_text {
+    position: absolute;
+    top: 15px;
+    left: 110px;
+}
+.sns .sns_box .sns_n .sns_text p {
+    font-weight: 600;
+    line-height: 25px;
+}
+.sns .sns_box .sns_n .sns_text span {
+    font-size: 12px;
+    line-height: 20px;
+}
+.f_menu {
+    padding: 18px 0;
+    text-align: center;
+}
+.f_menu a {
+    font-weight: 600;
+    margin: 0 20px;
+}
+.last_footer {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.last_footer img {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.last_footer address {
+    padding-top: 115px;
+}
+.last_footer address, p {
+    color: #666666;
+    line-height: 25px;
+}
