@@ -22,6 +22,9 @@
 }
 .header .gnb .menu > li {
     position: relative;
+    padding: 0 30px 0 30px;
+    text-align: center;
+    float: left;
 }
 .header .gnb .menu > li > a {
     position: relative;
@@ -29,7 +32,7 @@
     display: block;
     height: 70px;
 }
-.header .gnb .menu > li:hover .d2 {
+.header .gnb .menu > li:hover ul {
     top: 40px;
     left: -33px;
     visibility: visible;
@@ -40,12 +43,7 @@
 .header .gnb .menu a {
     color: #ffffff;
 }
-.header .gnb .menu .d1 {
-    padding: 0 30px 0 30px;
-    text-align: center;
-    float: left;
-}
-.header .gnb .menu .d1 .d2 {
+.header .gnb .menu li > ul {
     width: 200px;
     position: absolute;
     background: #000;
@@ -53,13 +51,13 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.header .gnb .menu .d1 .d2 li {
+.header .gnb .menu li > ul > li {
     line-height: 50px;
 }
-.header .gnb .menu .d1 .d2 .last_d2 {
+.header .gnb .menu li > ul > li:last-child {
     padding-bottom: 15px;
 }
-.header .gnb #sform {
+.header .gnb > form {
     width: 230px;
     border-radius: 10px;
     background: #ffffff;
@@ -68,13 +66,13 @@
     right: 20px;
     transform: translate(0, -50%);
 }
-.header .gnb #sform #sbox {
+.header .gnb > form > fieldset > #search_box {
     margin-left: 10px;
     float: left;
     height: 40px;
     border: #ffffff;
 }
-.header .gnb #sform .sbtn {
+.header .gnb > form > fieldset > #search_btn {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -82,70 +80,70 @@
     float: right;   
 }
 
+
 /* footer PC */
 .footer {
-    height: 293px;
-    background: #373737;
+
 }
-.sns {
+.footer .sns {
     padding-top: 60px;
     border-bottom: 1px solid #bfbfbf;
 }
-.sns .sns_box {
+.footer .sns > div {
     width: 990px;
     margin: 0 auto;
 }
-.sns .sns_box > div {
+.footer .sns > div > div {
     margin: 0 5px -1px 5px;
     float: left;
     width: 318px;
     height: 98px;
     border: 1px solid #bfbfbf;
-}
-.sns .sns_box .sns_n {
     position: relative;
 }
-.sns .sns_box .sns_n img {
+.footer .sns > div > div > a > img {
     position: absolute;
     top: 15px;
     left: 15px;
 }
-.sns .sns_box .sns_n .sns_text {
+.footer .sns > div > div > a > div {
     position: absolute;
     top: 15px;
     left: 110px;
 }
-.sns .sns_box .sns_n .sns_text p {
+.footer .sns > div > div > a > div > p {
     font-weight: 600;
     line-height: 25px;
 }
-.sns .sns_box .sns_n .sns_text span {
+.footer .sns > div > div > a > div > span {
     font-size: 12px;
     line-height: 20px;
 }
-.f_menu {
+
+.footer .footer_menu {
     padding: 18px 0;
     text-align: center;
 }
-.f_menu a {
+.footer .footer_menu > a {
     font-weight: 600;
     margin: 0 20px;
 }
-.last_footer {
-    width: 1200px;
+.footer > article {
+    height: 293px;
     margin: 0 auto;
     position: relative;
+    background: #373737;
 }
-.last_footer img {
+.footer > article > img {
     position: absolute;
     top: 50px;
     left: 50%;
     transform: translate(-50%, 0);
 }
-.last_footer address {
+.footer > article > address {
     padding-top: 115px;
 }
-.last_footer address, p {
+.footer > article > address, p {
     color: #666666;
     line-height: 25px;
 }

@@ -6,12 +6,7 @@ body {
     font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-}
-
 a {
-    text-decoration: none;
     color: #222222;
 }
 
@@ -19,29 +14,12 @@ a:hover {
     color: #222222;
 }
 
-address {
-    font-style: normal;
-}
-
-.hidden {
-    width: 0;
-    height: 0;
-    position: absolute;
-    text-indent: -9999px;
-    line-height: 0;
-}
-
-.cfixed:after {
-    display: block;
-    content: "";
-    clear: both;
-}
-
 .group {
     width: 1200px;
+    margin: 0 auto;
 }
 
-.t_line {
+.dividing_line {
     margin: 40px auto;
     width: 1200px;
     border-bottom: 1px solid #222222;
