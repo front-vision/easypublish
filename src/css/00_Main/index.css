@@ -35,20 +35,39 @@
 }
 
 .book_list {
-    height: 550px;
-    width: 100%;
     position: relative;
+    width: 100%;
+    margin: 50px auto;
 }
-.book_list .book_slider > div {
-    width: 360px;
-    height: 400px;
+.book_list .book_slider {
+}
+.book_list .book_slider .slick-slide {
+    /* width: 360px; */
+    min-height: 400px;
+    box-sizing: border-box;
     border-radius: 10px;
     background: #f9f9f9;
+    padding-top: 50px;
+    margin: 0 10px;
 }
-.book_list .book_slider > div > img {
-    padding-top: 20px;
+.book_list .book_slider .slick-slide img {
+    max-width: 100%;
 }
-.book_list .book_slider > div > div {
+.book_list .book_slider figcaption {
+    text-align: center;
+}
+.book_list .book_slider figcaption > p {
+    padding: 15px 0;
+    font-weight: 600;
+}
+.book_list .book_slider figcaption > span {
+    display: block;
+    padding: 0 50px;
+    line-height: 1.4;
+    font-size: 12px;
+    word-break: keep-all;
+}
+/*.book_list .book_slider > div > div {
     padding: 30px 0 0 30px;
     width: 80%;
 }
@@ -59,12 +78,12 @@
 .book_list .book_slider > div > div > span {
     font-size: 12px;
     line-height: 20px;
-}
+} */
 
 .board_area {
-    height: 350px;
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
+    padding: 50px 0;;
 }   
 .board_area .notice {
     width: 700px;

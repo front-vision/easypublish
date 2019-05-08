@@ -1,6 +1,15 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+a {
+    color: inherit;
+}
+
 /* header PC */
 .header {
     height: 70px;
