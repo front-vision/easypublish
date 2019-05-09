@@ -21,42 +21,43 @@
 }
 
 .main_visual {
-    height: 600px;
     font-size: 0;
-    position: relative;
     overflow: hidden;
 }
-.main_visual .visual_slider > div > img {
-    width: 1920px;
+.main_visual .visual_slider .visual {
+    height: 600px;
+}
+.main_visual .visual_slider .visual > img {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
+
 .book_list {
     height: 550px;
     width: 100%;
     position: relative;
 }
-.book_list .book_slider > div {
+.book_list .book_slider .book {
     width: 360px;
     height: 400px;
     border-radius: 10px;
     background: #f9f9f9;
 }
-.book_list .book_slider > div > img {
+.book_list .book_slider .book > img {
     padding-top: 20px;
 }
-.book_list .book_slider > div > div {
+.book_list .book_slider .book > div {
     padding: 30px 0 0 30px;
     width: 80%;
 }
-.book_list .book_slider > div > div > p {
+.book_list .book_slider .book > div > p {
     font-weight: 600;
     line-height: 40px;
 }
-.book_list .book_slider > div > div > span {
+.book_list .book_slider .book > div > span {
     font-size: 12px;
     line-height: 20px;
 }
