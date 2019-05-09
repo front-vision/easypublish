@@ -8,42 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>이지스퍼블리싱㈜</title>
 
-    <!-- COMMON -->
+    <!-- COMMON CSS-->
     <link rel="stylesheet" href="../../src/css/common/reset.css">
     <link rel="stylesheet" href="../../src/css/common/basic.css">
     <link rel="stylesheet" href="../../src/css/common/common.css">
+
+    <!-- THIS CSS -->
+    <link rel="stylesheet" href="../../src/css/00_Main/index.css">
+    <link rel="stylesheet" href="../../src/css/00_Main/slick.css">
+
+    <!-- COMMON JS -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <!-- THIS -->
-    <link rel="stylesheet" href="../../src/css/00_Main/index.css">
+    <!-- THIS JS -->
     <script src="../../src/js/00_Main/slick.min.js"></script>
-    <link rel="stylesheet" href="../../src/css/00_Main/slick.css">
     <script src="../../src/js/00_Main/index.js"></script>
-
-    <script>
-        $(function() {
-            $(".visual_slider").slick({
-                arrows: false,
-                autoplay: true,
-                fade: true,
-                infinite: true,
-                speed: 1000
-            })
-        });
-
-        $(function() {
-            $(".book_slider").slick({
-                arrows: false,
-                autoplay: true,
-                speed: 2000,
-                infinite: true,
-                slidesToShow: 5,
-                slidesToScroll: 3
-            })
-        });
-    </script>
-    <style>
-    </style>
 
 </head>
 
@@ -65,7 +44,7 @@
                 <ul class="menu">
                     <li><a href="#">이지스 소개</a>
                         <ul>
-                            <li><a href="../01_Company/01_About.html">회사소개</a></li>
+                            <li><a href="#">회사소개</a></li>
                             <li><a href="#">출판사</a></li>
                             <li><a href="#">도서목록</a></li>
                             <li><a href="#">뉴스</a></li>
@@ -170,7 +149,7 @@
             </section>
 
             <section class="board_area">
-                <h1 class="skip">공지사항</h1>
+                <h1 class="skip">공지사항 및 관련링크</h1>
                 <div class="notice">
                     <div>
                         <a href="#">공지사항 / 이벤트</a>
@@ -266,14 +245,13 @@
                 <a href="#">이용약관</a>
             </div>
         
-            <article>
-                <h1 class="skip">푸터</h1>
+            <div class="footer_text">
                 <img src="../../src/images/common/footer_logo.png" alt="이지스파블리온">
                 <address align="center">(000-000) 서울시 영등포구 당산로 00길 99 W동 202호</address>
                 <p align="center">TEL. (02)000-0000　　FAX. (02)000-0000　　E-mail. easys@easyspavlion.co.kr</p>
                 <p align="center">대표자 : 김병수　　사업자등록번호 : 000-00-00000</p><br>
                 <p align="center">Copyright(c)2019 이지스파블리온 Easyspavlion Co. Ltd. All Rights Reserved</p>
-            </article>
+            </div>
 
         </footer>
 

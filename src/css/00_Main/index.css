@@ -23,6 +23,10 @@
 .main_visual {
     font-size: 0;
     overflow: hidden;
+    
+}
+.main_visual .visual_slider {
+    position: relative;
 }
 .main_visual .visual_slider .visual {
     height: 600px;
@@ -33,12 +37,35 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
+.main_visual .slick-dots {
+    width: 200px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+}
+.main_visual .slick-dots button {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    float: left;
+    font-size: 0;
+    background-color: #fff;
+    opacity: .5;
+}
+.main_visual .slick-dots .slick-active button {
+    opacity: 1;
+}
 
 
 .book_list {
-    height: 550px;
+    height: 600px;
     width: 100%;
     position: relative;
+}
+.book_list .book_slider {
+    padding-top: 70px;
 }
 .book_list .book_slider .book {
     width: 360px;
@@ -47,6 +74,7 @@
     background: #f9f9f9;
 }
 .book_list .book_slider .book > img {
+    width: 100%;
     padding-top: 20px;
 }
 .book_list .book_slider .book > div {
@@ -60,6 +88,21 @@
 .book_list .book_slider .book > div > span {
     font-size: 12px;
     line-height: 20px;
+    letter-spacing: -0.8px;
+}
+.book_list .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    margin: 0 20px;
+}
+.book_list .slick-active {
+    opacity: 0.8;
+}
+.book_list .slick-current {
+    opacity: 1;
+    border: 1px solid #f94d4d;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #dcdcdc;
 }
 
 .board_area {
