@@ -65,7 +65,9 @@
     position: relative;
 }
 .book_list .book_slider {
+    height: 500px;
     padding-top: 70px;
+    overflow: hidden;
 }
 .book_list .book_slider .book {
     width: 360px;
@@ -91,6 +93,7 @@
     letter-spacing: -0.8px;
 }
 .book_list .slick-slide {
+    
     transition: all ease-in-out .3s;
     opacity: 0;
     margin: 0 20px;
